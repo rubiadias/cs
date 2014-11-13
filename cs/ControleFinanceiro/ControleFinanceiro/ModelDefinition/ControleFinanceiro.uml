@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="feaf76d5-eb0d-4c56-b3b9-5512bccc27ef"
+  name="ControleFinanceiro" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="0a3b286d-379b-4f95-84af-e3af6734a4a6"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="aa0770ac-695b-4a58-ba21-36dc53abb067">
+          <propertyInstance
+            Id="80f094d1-4f49-4dae-b73e-d2433c0c8198"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="a33aeba2-9afc-4343-8bd5-396e7fef9564">
+          <propertyInstance
+            Id="6e1ef1c3-a01d-4338-af46-038d10da673c"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="4e861ff5-c8c2-4ee5-8f3f-9f50ed697292">
+          <propertyInstance
+            Id="7b46463c-3611-467b-b62e-3e0e4c86dfe4"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="ce4e1741-a758-4373-a1c9-d9ee84e66ad7"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="07172408-1062-45be-b5da-7f4874ddde77">
+          <propertyInstance
+            Id="36c20aa3-8e4b-4bf2-8901-6b2850cdade5"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="d6787af0-1dff-47ca-b6b2-573a3d9ec781">
+          <propertyInstance
+            Id="9dfb191e-f2c5-4b7c-84e2-49f758f55644"
+            name="TemplateFilePath"
+            value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="db946639-f778-4c61-9dad-0899037304ba">
+          <propertyInstance
+            Id="bf3dfa5a-783f-43ef-ae01-bbad71679176"
+            name="ProjectPath"
+            value="ClassTemplate=..\ControleFinanceiroLib\ControleFinanceiroLib.csproj|EnumTemplate=..\ControleFinanceiroLib\ControleFinanceiroLib.csproj|InterfaceTemplate=..\ControleFinanceiroLib\ControleFinanceiroLib.csproj|StructTemplate=..\ControleFinanceiroLib\ControleFinanceiroLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="15101403-6220-4685-911d-901af698e848">
+          <propertyInstance
+            Id="7615cdae-1c7f-4980-8d20-05c04397994b"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="9e49b849-53bd-4a9c-a3e3-919e52e485d0">
+          <propertyInstance
+            Id="4cdd2f35-1f7f-478e-81e2-c5889d90e8f0"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="60a8ddad-ce37-418a-9ff8-5c8a326802ec">
+          <propertyInstance
+            Id="790abbf2-7287-402c-8b19-124d015ec9d3"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="49615947-e1b4-4852-b452-8371e3393118">
+          <propertyInstance
+            Id="7f8bab12-8aff-44e2-baa8-1bc1851ea4ab"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="b2c1b06c-f05e-4bd8-bb84-d8483d1b7f1b">
+      <profileInstance
+        Id="25476bcb-f737-4b34-94ff-cea494f2b9b3"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="b7839695-3ea7-47d7-aae7-d80619dc68d3">
+      <profileInstance
+        Id="08e3370b-dfaa-49c6-a728-00cddd7e2f6f"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ee7eb95d-504d-4db6-8cac-83f341015b39"
+        LastKnownName="Controle.Dominio"
+        LastKnownLocation="Controle.Dominio.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fc414a6e-6a64-471e-8d14-34e80f77098d"
+        name="DateTime" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a633279a-b4b8-4cc9-90ae-117399f7c6fc"
+        name="Decimal" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="03ccb6d3-b8e7-4586-ad0a-522d8f80a0e4"
+        name="Receita" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5b76b69b-04d4-4e68-9bf0-950bbbf0d366"
+        name="Despesa" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
