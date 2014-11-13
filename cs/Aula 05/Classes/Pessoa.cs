@@ -13,6 +13,7 @@ namespace Classes.Aula5.Dominio
 
         void Caminhar()
         {
+
         }
     }
 }
